@@ -1,18 +1,4 @@
-# BossSensor
-Hide your screen when your boss is approaching.
-
-## Demo
-The boss stands up. He is approaching.
-
-![standup](https://github.com/Hironsan/BossSensor/blob/master/resource_for_readme/standup.jpg)
-
-When he is approaching, the program fetches face images and classifies the image.
-
-![approaching](https://github.com/Hironsan/BossSensor/blob/master/resource_for_readme/approach.jpg)
-
-If the image is classified as the Boss, it will monitor changes.
-
-![editor](https://github.com/Hironsan/BossSensor/blob/master/resource_for_readme/editor.jpg)
+Built using https://github.com/Hironsan/BossSensor
 
 ## Requirements
 
@@ -22,21 +8,7 @@ If the image is classified as the Boss, it will monitor changes.
 * Anaconda
 * Lots of images of your boss and other person image
 
-Put images into [data/boss](https://github.com/Hironsan/BossSensor/tree/master/data/boss) and [data/other](https://github.com/Hironsan/BossSensor/tree/master/data/other).
-
-## Usage
-First, Train boss image.
-
-```
-$ python boss_train.py
-```
-
-
-Second, start BossSensor.
-
-```
-$ python camera_reader.py
-```
+Put images into [data/boss] and [data/other].
 
 ## Install
 Install OpenCV, PyQt4, Anaconda.
@@ -49,18 +21,16 @@ conda install -c conda-forge tensorflow
 pip install -r requirements.txt
 ```
 
-Change Keras backend from Theano to TensorFlow.
+## Usage
+First, Train user image.
 
-## Licence
-
-[MIT](https://github.com/Hironsan/BossSensor/blob/master/LICENSE)
-
-## Author
-
-[Hironsan](https://github.com/Hironsan)
+```
+$ python boss_train.py
+```
 
 
-keep mac on
-if person, keep open
-if not, execute bash command to put mac to sleep
-then take picture and do something (pusher feed)
+Second, start NetflixPauser.
+
+```
+$ python camera_reader.py
+```
