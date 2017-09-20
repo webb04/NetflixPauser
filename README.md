@@ -1,4 +1,4 @@
-Built using https://github.com/Hironsan/BossSensor
+Built @ Hack Cambridge 2017 using https://github.com/Hironsan/BossSensor
 
 ## Requirements
 
@@ -34,3 +34,5 @@ Second, start NetflixPauser.
 ```
 $ python camera_reader.py
 ```
+
+Third, watch Netflix and it will pause when you walk away (or cover the webcam)
