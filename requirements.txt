@@ -9,6 +9,6 @@ scikit-learn==0.17.1
 scipy==0.18.1
 six==1.10.0
 scikit-learn==0.17.1
-tensorflow==1.15.2
+tensorflow==2.9.3
 Theano==0.8.2
 PyQt<5.0
